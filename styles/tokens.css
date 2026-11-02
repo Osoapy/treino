@@ -18,3 +18,15 @@
   --font-sans: Manrope, sans-serif;
   --font-mono: "DM Mono", monospace;
 }
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --color-bg: #0b0d0c;
+  --color-surface: #141715;
+  --color-ink: #f1f0e9;
+  --color-muted: #a0a6a1;
+  --color-line: #323633;
+  --color-purple: #a99bff;
+  --color-purple-soft: #302747;
+  --shadow-float: 0 20px 60px rgb(0 0 0 / 32%);
+}
+:root[data-theme="light"] { color-scheme: light; }

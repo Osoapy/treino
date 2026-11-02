@@ -24,7 +24,7 @@ class VolumeDashboard extends HTMLElement {
             <article class="chart-card split-card">
               <div class="chart-head"><span>ARQUITETURA DO CICLO</span><span>${data.days.length - (split.rest || 0)} + ${split.rest || 0}</span></div>
               <div class="donut-layout">
-                <div class="donut" style="--active:${(data.days.length - (split.rest || 0)) / data.days.length * 100}%"><div><strong>${data.days.length - (split.rest || 0)}:${split.rest || 0}</strong><span>TREINO : OFF</span></div></div>
+                <div class="donut" style="--upper-share:${(split.upper || 0) / data.days.length * 100}%;--lower-share:${(split.upper + (split.lower || 0)) / data.days.length * 100}%;--active:${(data.days.length - (split.rest || 0)) / data.days.length * 100}%"><div><strong>${data.days.length - (split.rest || 0)}:${split.rest || 0}</strong><span>TREINO : OFF</span></div></div>
                 <div class="split-list"><div><span><i class="upper"></i>Superiores</span><strong>${split.upper || 0} dias</strong></div><div><span><i class="lower"></i>Inferiores</span><strong>${split.lower || 0} dias</strong></div><div><span><i class="rest"></i>Recuperação</span><strong>${split.rest || 0} dia</strong></div></div>
               </div>
               <p class="chart-caption">Frequência alta, volume distribuído e recuperação programada.</p>

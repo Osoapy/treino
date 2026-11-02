@@ -11,8 +11,23 @@ class AtlasHeader extends HTMLElement {
         <nav aria-label="Navegação principal">
           <a href="#treino">Treino</a><a href="#volume">Volume</a>
         </nav>
-        <div class="week-chip"><span></span> CICLO ATIVO</div>
+        <div class="header-tools"><div class="week-chip"><span></span> CICLO ATIVO</div><button class="theme-toggle" type="button" aria-label="Ativar modo claro" title="Ativar modo claro"><span aria-hidden="true">☀</span><span class="theme-toggle-label">Modo claro</span></button></div>
       </header>`;
+    const toggle = this.querySelector('.theme-toggle');
+    const updateThemeButton = () => {
+      const dark = document.documentElement.dataset.theme !== 'light';
+      toggle.setAttribute('aria-label', `Ativar modo ${dark ? 'claro' : 'escuro'}`);
+      toggle.title = `Ativar modo ${dark ? 'claro' : 'escuro'}`;
+      toggle.querySelector('[aria-hidden="true"]').textContent = dark ? '☀' : '☾';
+      toggle.querySelector('.theme-toggle-label').textContent = `Modo ${dark ? 'claro' : 'escuro'}`;
+    };
+    updateThemeButton();
+    toggle.addEventListener('click', () => {
+      const theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+      document.documentElement.dataset.theme = theme;
+      try { localStorage.setItem('mandachuva-theme', theme); } catch {}
+      updateThemeButton();
+    });
   }
 }
 
