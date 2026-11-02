@@ -1,0 +1,605 @@
+﻿{
+    "schemaVersion":  1,
+    "brand":  {
+                  "name":  "MANDACHUVA",
+                  "eyebrow":  "PLANEJAMENTO · CONSISTÊNCIA · PROGRESSO",
+                  "headline":  "Treine com clareza.",
+                  "description":  "Seu plano completo, do primeiro aquecimento ao último percurso. Veja o que fazer, quando fazer e quais músculos entram em ação."
+              },
+    "defaults":  {
+                     "startTime":  "18:00",
+                     "warmupMinutes":  8,
+                     "warmupTitle":  "Aquecimento antes das séries de trabalho",
+                     "warmupDescription":  "Faça séries progressivas, sem contar no volume abaixo."
+                 },
+    "days":  [
+                 {
+                     "name":  "Segunda",
+                     "short":  "SEG",
+                     "category":  "upper",
+                     "title":  "Peito e costas A",
+                     "focus":  "Empurrar + puxar",
+                     "exercises":  [
+                                       {
+                                           "name":  "Supino reto com barra",
+                                           "series":  3,
+                                           "reps":  "4–6",
+                                           "duration":  10,
+                                           "muscles":  [
+                                                           "Peito",
+                                                           "Tríceps",
+                                                           "Deltoide anterior"
+                                                       ],
+                                           "map":  [
+                                                       "chest",
+                                                       "triceps",
+                                                       "shoulder"
+                                                   ],
+                                           "tip":  "Retraia as escápulas e mantenha os pés firmes."
+                                       },
+                                       {
+                                           "name":  "Supino inclinado com barra",
+                                           "series":  3,
+                                           "reps":  "8–12",
+                                           "duration":  9,
+                                           "muscles":  [
+                                                           "Peito superior",
+                                                           "Tríceps",
+                                                           "Deltoide anterior"
+                                                       ],
+                                           "map":  [
+                                                       "chest",
+                                                       "triceps",
+                                                       "shoulder"
+                                                   ],
+                                           "tip":  "Use inclinação moderada e controle a descida para enfatizar a parte superior do peito."
+                                       },
+                                       {
+                                           "name":  "Crossover na polia",
+                                           "series":  3,
+                                           "reps":  "12–15",
+                                           "duration":  7,
+                                           "muscles":  [
+                                                           "Peito"
+                                                       ],
+                                           "map":  [
+                                                       "chest"
+                                                   ],
+                                           "tip":  "Cruze levemente as mãos e preserve a tensão contínua."
+                                       },
+                                       {
+                                           "name":  "Remada com apoio no peito",
+                                           "series":  3,
+                                           "reps":  "6–8",
+                                           "duration":  10,
+                                           "muscles":  [
+                                                           "Costas",
+                                                           "Bíceps",
+                                                           "Deltoide posterior"
+                                                       ],
+                                           "map":  [
+                                                       "back",
+                                                       "biceps",
+                                                       "rear-delts"
+                                                   ],
+                                           "tip":  "Leve os cotovelos para trás sem tirar o peito do apoio."
+                                       },
+                                       {
+                                           "name":  "Puxada alta ou barra no graviton",
+                                           "series":  3,
+                                           "reps":  "8–12",
+                                           "duration":  9,
+                                           "muscles":  [
+                                                           "Dorsais",
+                                                           "Bíceps",
+                                                           "Antebraços"
+                                                       ],
+                                           "map":  [
+                                                       "back",
+                                                       "biceps",
+                                                       "forearms"
+                                                   ],
+                                           "tip":  "Inicie o movimento deprimindo as escápulas."
+                                       }
+                                   ]
+                 },
+                 {
+                     "name":  "Terça",
+                     "short":  "TER",
+                     "category":  "upper",
+                     "title":  "Ombros, braços e antebraços A",
+                     "focus":  "Deltoides + braços",
+                     "exercises":  [
+                                       {
+                                           "name":  "Desenvolvimento na máquina",
+                                           "series":  3,
+                                           "reps":  "6–10",
+                                           "duration":  10,
+                                           "muscles":  [
+                                                           "Deltoide anterior",
+                                                           "Tríceps"
+                                                       ],
+                                           "map":  [
+                                                       "shoulder",
+                                                       "triceps"
+                                                   ],
+                                           "tip":  "Mantenha as costelas controladas e empurre acima."
+                                       },
+                                       {
+                                           "name":  "Elevação lateral na polia",
+                                           "series":  3,
+                                           "reps":  "12–20",
+                                           "duration":  7,
+                                           "muscles":  [
+                                                           "Deltoide lateral"
+                                                       ],
+                                           "map":  [
+                                                       "shoulder"
+                                                   ],
+                                           "tip":  "Conduza pelo cotovelo e não encolha os ombros."
+                                       },
+                                       {
+                                           "name":  "Rosca direta com barra W",
+                                           "series":  3,
+                                           "reps":  "6–10",
+                                           "duration":  9,
+                                           "muscles":  [
+                                                           "Bíceps",
+                                                           "Antebraços"
+                                                       ],
+                                           "map":  [
+                                                       "biceps",
+                                                       "forearms"
+                                                   ],
+                                           "tip":  "Cotovelos estáveis; evite embalar o tronco."
+                                       },
+                                       {
+                                           "name":  "Rosca martelo",
+                                           "series":  3,
+                                           "reps":  "10–15",
+                                           "duration":  7,
+                                           "muscles":  [
+                                                           "Braquial",
+                                                           "Bíceps",
+                                                           "Antebraços"
+                                                       ],
+                                           "map":  [
+                                                       "biceps",
+                                                       "forearms"
+                                                   ],
+                                           "tip":  "Mantenha pegada neutra durante todo o arco."
+                                       },
+                                       {
+                                           "name":  "Tríceps acima da cabeça na polia",
+                                           "series":  3,
+                                           "reps":  "8–12",
+                                           "duration":  8,
+                                           "muscles":  [
+                                                           "Tríceps"
+                                                       ],
+                                           "map":  [
+                                                       "triceps"
+                                                   ],
+                                           "tip":  "Deixe o braço apontado para cima e estenda por completo."
+                                       },
+                                       {
+                                           "name":  "Tríceps na polia com corda",
+                                           "series":  3,
+                                           "reps":  "10–15",
+                                           "duration":  8,
+                                           "muscles":  [
+                                                           "Tríceps"
+                                                       ],
+                                           "map":  [
+                                                       "triceps"
+                                                   ],
+                                           "tip":  "Mantenha os cotovelos junto ao corpo e abra a corda no final do movimento."
+                                       },
+                                       {
+                                           "name":  "Extensão de punho com antebraço apoiado",
+                                           "series":  3,
+                                           "reps":  "15–20",
+                                           "duration":  6,
+                                           "muscles":  [
+                                                           "Extensores do punho"
+                                                       ],
+                                           "map":  [
+                                                       "forearms"
+                                                   ],
+                                           "tip":  "Movimente somente o punho, com amplitude confortável."
+                                       }
+                                   ]
+                 },
+                 {
+                     "name":  "Quarta",
+                     "short":  "QUA",
+                     "category":  "lower",
+                     "title":  "Pernas A e abdômen",
+                     "focus":  "Força + cadeia posterior",
+                     "exercises":  [
+                                       {
+                                           "name":  "Agachamento livre",
+                                           "series":  3,
+                                           "reps":  "4–6",
+                                           "duration":  12,
+                                           "muscles":  [
+                                                           "Quadríceps",
+                                                           "Glúteos",
+                                                           "Core"
+                                                       ],
+                                           "map":  [
+                                                       "quads",
+                                                       "glutes",
+                                                       "abs"
+                                                   ],
+                                           "tip":  "Trave o tronco e distribua a pressão no pé inteiro."
+                                       },
+                                       {
+                                           "name":  "Agachamento sumô",
+                                           "series":  3,
+                                           "reps":  "8–12",
+                                           "duration":  11,
+                                           "muscles":  [
+                                                           "Quadríceps",
+                                                           "Glúteos",
+                                                           "Adutores"
+                                                       ],
+                                           "map":  [
+                                                       "quads",
+                                                       "glutes"
+                                                   ],
+                                           "tip":  "Mantenha os joelhos alinhados aos pés e desça com controle."
+                                       },
+                                       {
+                                           "name":  "Cadeira extensora",
+                                           "series":  3,
+                                           "reps":  "10–15",
+                                           "duration":  7,
+                                           "muscles":  [
+                                                           "Quadríceps"
+                                                       ],
+                                           "map":  [
+                                                       "quads"
+                                                   ],
+                                           "tip":  "Controle o retorno e contraia no topo."
+                                       },
+                                       {
+                                           "name":  "Mesa ou cadeira flexora",
+                                           "series":  3,
+                                           "reps":  "10–15",
+                                           "duration":  7,
+                                           "muscles":  [
+                                                           "Posteriores da coxa"
+                                                       ],
+                                           "map":  [
+                                                       "hamstrings"
+                                                   ],
+                                           "tip":  "Não deixe o quadril escapar do apoio."
+                                       },
+                                       {
+                                           "name":  "Panturrilha em pé",
+                                           "series":  3,
+                                           "reps":  "8–12",
+                                           "duration":  7,
+                                           "muscles":  [
+                                                           "Panturrilhas"
+                                                       ],
+                                           "map":  [
+                                                       "calves"
+                                                   ],
+                                           "tip":  "Faça uma pausa breve embaixo e no pico da contração."
+                                       },
+                                       {
+                                           "name":  "Abdominal na máquina",
+                                           "series":  3,
+                                           "reps":  "10–15",
+                                           "duration":  7,
+                                           "muscles":  [
+                                                           "Abdômen"
+                                                       ],
+                                           "map":  [
+                                                       "abs"
+                                                   ],
+                                           "tip":  "Enrole o tronco; evite apenas dobrar o quadril."
+                                       }
+                                   ]
+                 },
+                 {
+                     "name":  "Quinta",
+                     "short":  "QUI",
+                     "category":  "upper",
+                     "title":  "Costas e peito B",
+                     "focus":  "Puxar + empurrar",
+                     "exercises":  [
+                                       {
+                                           "name":  "Puxada alta ou barra no graviton",
+                                           "series":  3,
+                                           "reps":  "6–10",
+                                           "duration":  10,
+                                           "muscles":  [
+                                                           "Dorsais",
+                                                           "Bíceps",
+                                                           "Antebraços"
+                                                       ],
+                                           "map":  [
+                                                       "back",
+                                                       "biceps",
+                                                       "forearms"
+                                                   ],
+                                           "tip":  "Conduza os cotovelos para baixo e mantenha o peito alto."
+                                       },
+                                       {
+                                           "name":  "Remada baixa na máquina",
+                                           "series":  3,
+                                           "reps":  "8–12",
+                                           "duration":  9,
+                                           "muscles":  [
+                                                           "Costas",
+                                                           "Bíceps",
+                                                           "Deltoide posterior"
+                                                       ],
+                                           "map":  [
+                                                       "back",
+                                                       "biceps",
+                                                       "rear-delts"
+                                                   ],
+                                           "tip":  "Termine com as escápulas juntas sem inclinar demais o tronco."
+                                       },
+                                       {
+                                           "name":  "Encolhimento com halteres",
+                                           "series":  3,
+                                           "reps":  "10–15",
+                                           "duration":  7,
+                                           "muscles":  [
+                                                           "Trapézio superior",
+                                                           "Pegada"
+                                                       ],
+                                           "map":  [
+                                                       "traps",
+                                                       "forearms"
+                                                   ],
+                                           "tip":  "Suba os ombros verticalmente; não faça círculos."
+                                       },
+                                       {
+                                           "name":  "Supino reto com barra",
+                                           "series":  3,
+                                           "reps":  "6–8",
+                                           "duration":  10,
+                                           "muscles":  [
+                                                           "Peito",
+                                                           "Tríceps",
+                                                           "Deltoide anterior"
+                                                       ],
+                                           "map":  [
+                                                       "chest",
+                                                       "triceps",
+                                                       "shoulder"
+                                                   ],
+                                           "tip":  "Mantenha o caminho da barra estável e as escápulas presas."
+                                       },
+                                       {
+                                           "name":  "Voador",
+                                           "series":  3,
+                                           "reps":  "10–15",
+                                           "duration":  7,
+                                           "muscles":  [
+                                                           "Peito"
+                                                       ],
+                                           "map":  [
+                                                       "chest"
+                                                   ],
+                                           "tip":  "Abra até onde o ombro segue confortável e feche contraindo."
+                                       }
+                                   ]
+                 },
+                 {
+                     "name":  "Sexta",
+                     "short":  "SEX",
+                     "category":  "upper",
+                     "title":  "Braços, ombros e antebraços B",
+                     "focus":  "Braços + deltoides",
+                     "exercises":  [
+                                       {
+                                           "name":  "Agachamento Hack",
+                                           "series":  3,
+                                           "reps":  "8–12",
+                                           "duration":  8,
+                                           "muscles":  [
+                                                           "Tríceps"
+                                                       ],
+                                           "map":  [
+                                                       "triceps"
+                                                   ],
+                                           "tip":  "Prenda os cotovelos ao lado do corpo."
+                                       },
+                                       {
+                                           "name":  "Rosca no banco inclinado",
+                                           "series":  3,
+                                           "reps":  "8–12",
+                                           "duration":  8,
+                                           "muscles":  [
+                                                           "Bíceps"
+                                                       ],
+                                           "map":  [
+                                                       "biceps"
+                                                   ],
+                                           "tip":  "Mantenha os ombros atrás e alongue sem perder controle."
+                                       },
+                                       {
+                                           "name":  "Desenvolvimento na máquina",
+                                           "series":  3,
+                                           "reps":  "8–12",
+                                           "duration":  9,
+                                           "muscles":  [
+                                                           "Deltoide anterior",
+                                                           "Tríceps"
+                                                       ],
+                                           "map":  [
+                                                       "shoulder",
+                                                       "triceps"
+                                                   ],
+                                           "tip":  "Pare antes de perder a posição das costelas."
+                                       },
+                                       {
+                                           "name":  "Elevação lateral na polia",
+                                           "series":  3,
+                                           "reps":  "12–20",
+                                           "duration":  7,
+                                           "muscles":  [
+                                                           "Deltoide lateral"
+                                                       ],
+                                           "map":  [
+                                                       "shoulder"
+                                                   ],
+                                           "tip":  "Suba até a linha dos ombros com movimento limpo."
+                                       },
+                                       {
+                                           "name":  "Voador invertido",
+                                           "series":  3,
+                                           "reps":  "12–20",
+                                           "duration":  7,
+                                           "muscles":  [
+                                                           "Deltoide posterior",
+                                                           "Costas"
+                                                       ],
+                                           "map":  [
+                                                       "rear-delts",
+                                                       "back"
+                                                   ],
+                                           "tip":  "Abra os braços sem transformar o movimento em remada."
+                                       },
+                                       {
+                                           "name":  "Flexão de punho com antebraço apoiado",
+                                           "series":  3,
+                                           "reps":  "12–20",
+                                           "duration":  6,
+                                           "muscles":  [
+                                                           "Flexores do punho"
+                                                       ],
+                                           "map":  [
+                                                       "forearms"
+                                                   ],
+                                           "tip":  "Deixe os dedos controlarem a carga no fim da descida."
+                                       },
+                                       {
+                                           "name":  "Extensão de punho com antebraço apoiado",
+                                           "series":  3,
+                                           "reps":  "15–20",
+                                           "duration":  6,
+                                           "muscles":  [
+                                                           "Extensores do punho"
+                                                       ],
+                                           "map":  [
+                                                       "forearms"
+                                                   ],
+                                           "tip":  "Use carga leve e movimento estrito."
+                                       }
+                                   ]
+                 },
+                 {
+                     "name":  "Domingo",
+                     "short":  "DOM",
+                     "category":  "rest",
+                     "title":  "Descanso",
+                     "focus":  "Recuperar + adaptar",
+                     "exercises":  [
+
+                                   ]
+                 },
+                 {
+                     "name":  "Sábado",
+                     "short":  "SÁB",
+                     "category":  "lower",
+                     "title":  "Pernas B e abdômen",
+                     "focus":  "Volume + força",
+                     "exercises":  [
+                                       {
+                                           "name":  "Agachamento Hack",
+                                           "series":  3,
+                                           "reps":  "6–8",
+                                           "duration":  11,
+                                           "muscles":  [
+                                                           "Quadríceps",
+                                                           "Glúteos",
+                                                           "Core"
+                                                       ],
+                                           "map":  [
+                                                       "quads",
+                                                       "glutes",
+                                                       "abs"
+                                                   ],
+                                           "tip":  "Repita a mesma base e profundidade em todas as séries."
+                                       },
+                                       {
+                                           "name":  "Leg press 45°",
+                                           "series":  3,
+                                           "reps":  "10–15",
+                                           "duration":  10,
+                                           "muscles":  [
+                                                           "Quadríceps",
+                                                           "Glúteos"
+                                                       ],
+                                           "map":  [
+                                                       "quads",
+                                                       "glutes"
+                                                   ],
+                                           "tip":  "Desça com controle sem tirar o quadril do banco."
+                                       },
+                                       {
+                                           "name":  "Cadeira flexora",
+                                           "series":  3,
+                                           "reps":  "8–12",
+                                           "duration":  8,
+                                           "muscles":  [
+                                                           "Posteriores da coxa"
+                                                       ],
+                                           "map":  [
+                                                       "hamstrings"
+                                                   ],
+                                           "tip":  "Aproxime o calcanhar do glúteo sem impulso."
+                                       },
+                                       {
+                                           "name":  "Panturrilha em pé",
+                                           "series":  3,
+                                           "reps":  "10–15",
+                                           "duration":  7,
+                                           "muscles":  [
+                                                           "Panturrilhas"
+                                                       ],
+                                           "map":  [
+                                                       "calves"
+                                                   ],
+                                           "tip":  "Busque amplitude total e cadência constante."
+                                       },
+                                       {
+                                           "name":  "Elevação pélvica",
+                                           "series":  3,
+                                           "reps":  "10–20",
+                                           "duration":  7,
+                                           "muscles":  [
+                                                           "Glúteos",
+                                                           "Posteriores"
+                                                       ],
+                                           "map":  [
+                                                       "glutes",
+                                                       "hamstrings"
+                                                   ],
+                                           "tip":  "Apoie as costas no banco e eleve o quadril até alinhar tronco e coxas."
+                                       },
+                                       {
+                                           "name":  "Abdômen na máquina",
+                                           "series":  3,
+                                           "reps":  "10–15",
+                                           "duration":  7,
+                                           "muscles":  [
+                                                           "Abdômen"
+                                                       ],
+                                           "map":  [
+                                                       "abs"
+                                                   ],
+                                           "tip":  "Enrole o tronco contraindo o abdômen, sem puxar com os braços."
+                                       }
+                                   ]
+                 }
+             ]
+}

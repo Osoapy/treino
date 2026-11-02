@@ -1,0 +1,55 @@
+@media (max-width: 68rem) {
+  .hero { min-height: auto; grid-template-columns: 1fr; padding-top: 5rem; }
+  .hero-visual { width: min(100%, 40rem); margin-inline: auto; }
+  .workout-grid, .charts-grid { grid-template-columns: 1fr; }
+  .volume-bars-card { grid-row: auto; }
+  .body-map { min-height: 31rem; }
+  .body-figure svg { max-height: 27rem; }
+}
+
+@media (max-width: 46rem) {
+  :root { --gutter: 1.375rem; }
+  .topbar { height: 4rem; }
+  .topbar nav { display: none; }
+  .week-chip { font-size: .5rem; }
+  .hero { padding-block: 4rem; }
+  .hero h1 { font-size: clamp(4rem, 19vw, 6.5rem); }
+  .hero-lede { font-size: .9375rem; }
+  .hero-visual { width: 100%; min-height: 0; aspect-ratio: 1; }
+  .hero-moon { top: 11%; left: 11%; width: 78%; height: 78%; }
+  .main-stat { right: 0; bottom: 5%; }
+  .main-stat strong { font-size: 3rem; }
+  .section-heading { align-items: flex-start; flex-direction: column; }
+  .section-heading h2 { font-size: clamp(3rem, 13vw, 4.25rem); }
+  .today-stamp { display: none; }
+  day-tabs { margin-inline: calc(-1 * var(--gutter)); }
+  .day-tabs { display: flex; overflow-x: auto; border-radius: 0; border-inline: 0; scrollbar-width: none; }
+  .day-tabs::-webkit-scrollbar { display: none; }
+  .day-tab { min-width: 5rem; border-bottom: 0; }
+  .panel-header { padding: 1.25rem; align-items: flex-start; }
+  .session-header { flex-direction: column; }
+  .time-control { width: 100%; }
+  .session-meta { padding: .875rem 1.25rem; }
+  .warmup-note { margin: 1.125rem 1.25rem .3125rem; }
+  .timeline { padding: .75rem .875rem 1.375rem; }
+  .timeline-item { grid-template-columns: 3.25rem 1rem 1fr; }
+  .exercise-tags { display: none; }
+  .body-map { min-height: 24rem; padding: 1.125rem .3125rem 0; }
+  .body-figure svg { max-height: 21rem; }
+  .bar-row { grid-template-columns: 5.75rem 1fr 1.5rem; gap: .5625rem; }
+  .bar-label { font-size: .5625rem; }
+  .donut-layout { flex-direction: column; align-items: stretch; }
+  .donut { margin-inline: auto; }
+  footer { padding-block: 2.625rem; flex-direction: column; text-align: center; }
+}
+
+@media (max-width: 24rem) {
+  .hero-actions .button { width: 100%; }
+  .hero-visual { min-height: 0; }
+  .hero-moon { top: 11%; left: 11%; width: 78%; height: 78%; }
+  .main-stat { padding: .75rem 1rem; }
+  .main-stat strong { font-size: 2.5rem; }
+  .main-stat span { font-size: .5rem; }
+  .panel-header.compact { flex-direction: column; }
+  .intensity-key { margin-left: .3125rem; }
+}
